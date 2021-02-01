@@ -1,0 +1,166 @@
+body {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  line-height: 1.7777;
+}
+div.menu {
+  background-color: #0d2134;
+  text-decoration: none;
+  width: 100%;
+}
+#sats {
+  font-size: 40px;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  margin: 30px;
+}
+
+div.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.bar1,
+.bar2,
+.bar3 {
+  width: 40px;
+  height: 4px;
+  background-color: #fff;
+  margin: 6px 0;
+  transition: 0.4s;
+}
+
+.change .bar1 {
+  -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+  transform: rotate(-45deg) translate(-9px, 6px);
+}
+
+.change .bar2 {
+  opacity: 0;
+}
+
+.change .bar3 {
+  -webkit-transform: rotate(45deg) translate(-8px, -8px);
+  transform: rotate(45deg) translate(-8px, -8px);
+}
+.viewport {
+  width: 35px;
+  height: 5px;
+  color: #fff;
+  margin: 6px 0;
+}
+
+.main {
+  background-color: #0d2134;
+  overflow: auto;
+  white-space: nowrap;
+}
+.photo {
+  width: 750px;
+  float: right;
+  margin-right: 20px;
+  vertical-align: middle;
+  border: 0;
+}
+
+.title_1 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 5em;
+  padding-top: 120px;
+  margin: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.title_2 {
+  color: #fa5333;
+  font-size: 15px;
+  margin-left: 5em;
+  margin: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+#bli-medlem {
+  font-style: italic;
+  font-weight: bold;
+}
+.city a:link,
+a:visited {
+  background-color: white;
+  color: #fa5333;
+  border: 2px solid #fa5333;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.city a:hover,
+a:active {
+  background-color: #fa5333;
+  color: white;
+  text-align: center;
+}
+.city {
+  padding-bottom: 100px;
+}
+
+footer {
+  background-color: #0d2134;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer-link a {
+  display: inline;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 10px;
+  text-decoration: none;
+  font-style: italic;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+td,
+th {
+  text-align: center;
+  /*padding: 8px;*/
+}
+
+/* visited link */
+.footer-link a:visited {
+  color: #fff;
+}
+
+/* mouse over link */
+.footer-link a:hover {
+  color: lightblue;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-style: italic;
+}
