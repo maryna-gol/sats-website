@@ -6,39 +6,64 @@
     <!-- meta links -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- hvordan linke til separat css dokument -->
-    <link rel="stylesheet" href="style.css">
-    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
-    <title>SATS</title>
-
+        <link rel="stylesheet" href="style.css">
+        <script src='https://kit.fontawesome.com/a076d05399.js'></script> 
+        <title>SATS</title>
+      
 </head>
 
 <body>
 
     <div class="menu">
-
-        <a id="sats" href="#index.html">SATS</a>
+        
+        <a id="sats" href="#index.html">SATS</a> 
         <a href="#medlem.html">Bli medlem </a> &nbsp;&nbsp;
         <a href="#trenningsenter.html">Finn trenningsenter</a> &nbsp;&nbsp;
         <a href="#tilbud.html">Treningstilbud</a> &nbsp;&nbsp;
         <a href="#online.html">Online </a> &nbsp;&nbsp;
         <a href="#prøv.html">Training prøv gratis</a> &nbsp;&nbsp;
         <a href="#shop.html">Shop</a> &nbsp;&nbsp;
-        <a href="#logg-inn.html">Logg inn</a>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-        <a href="#">Søk<i class="fa fa-fw fa-search"></i></a>&nbsp;&nbsp;
-        <a href="#meny.html">Meny</a> &nbsp;&nbsp;
-        <div class="container" onclick="myFunction(this)">
-            <div class="bar1"></div>
-            <div class="bar2"></div>
-            <div class="bar3"></div>
+        <a href="#logg-inn.html">Logg inn</a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="#søk"> Søk <i class="fa fa-fw fa-search"></i></a>&nbsp;&nbsp;
+
+        <div id="mySidenav" class="sidenav">
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="#logg-inn">Logg inn</a>
+            <a href="#mine-sider">Mine sider</a>
+            <a href="#bli-medlem">Bli medlem</a>
+            <a href="#hvorfor-sats">Hvorfor SATS?</a>
+            <a href="#kontakt-meg">Kontakt meg</a>
+            <a href="#pt-start">PT Start-introduksjonstime</a>
+            <a href="#digitale-verktøy">Digitale verktøy</a>
+            <a href="#senior">Senior</a>
+            <a href="#barn-ungdom">Barn og ungdom</a>
+            <a href="#online-training">Online Training</a>
+            <a href="#boot-camp">PT og Boot Camp</a>
+            <a href="#treningsprogrammer">Treningsprogrammer</a>
+            <a href="#finn-treningssenter">Finn treningssenter</a>
+            <a href="#treningstilbud">Treningstilbud</a>
+            <a href="#sats-shop">SATS Shop</a>
+            <a href="#berrift">Bedrift</a>
+            <a href="#medlemsservice">Medlemsservice</a>
+            <a href="#nyheter">Smakfulle nyheter!</a>
+            <a href="#kleskolleksjon">SATS kleskolleksjon</a>
+            
         </div>
+        
+        <!-- Click on the element below to open the side navigation menu -->
+        
+        <span style=" color: #fff; cursor:pointer" onclick="openNav()"> Meny  &#9776;</span>
+        
         <script>
-            function myFunction(x) {
-                x.classList.toggle("change");
+            function openNav() {
+                document.getElementById("mySidenav").style.display = "block";
             }
 
+            function closeNav() {
+                document.getElementById("mySidenav").style.display = "none";
+            }
         </script>
-
+        
 
 
     </div>
@@ -50,102 +75,99 @@
             ÉN MÅNED FRI TRENING</h3>
         <h3 class="title_2">SCROLL NED OG SIKRE DEG TILBUDET NÅ!</h3>
     </div>
-
-    <body>
-        <!-- fas fa-home -->
-
-        <i class='fas fa-home' style='color:red'></i> > Bli medlem
-
+        
+        <body>
+            <!-- fas fa-home -->
+            
+            <i class='fas fa-home'style='color:red'></i> > Bli medlem
+           
         <!-- city container -->
         <center>
-            <h2 font-size: 40px;><i><b>BLI MEDLEM</i></b></h2>
-            <p>Velg ditt område for å sette sammen ditt medlemskap:
-            <p>
-
-            <div class="city">
-
-                <a href="default.asp" target="_blank"><i><b>OSLO/AKERHUS</i></b></a>
-                <a href="default.asp" target="_blank"><i><b>BERGEN</b></i></a>
-                <a href="default.asp" target="_blank"><i><b>GRENLAND</b></i></a>
-                <a href="default.asp" target="_blank"><i><b>SØRLANDET</b></i></a>
-                <a href="default.asp" target="_blank"><i><b>DRAMMEN</b></i></a>
-                <br>
-                <br>
-                <a href="default.asp" target="_blank"><i><b>ROGALAND</b></i></a>
-                <a href="default.asp" target="_blank"><i><b>TROMSØ</b></i></a>
-                <a href="default.asp" target="_blank"><i><b>HØNEFOSS</b></i></a>
-                <a href="default.asp" target="_blank"><i><b>LILLEHAMMER</b></i></a>
-                <a href="default.asp" target="_blank"><i><b>ØSTFOLD</b></i></a>
-
-
-                <p>Er du allerede medlem og ønsker å endre ditt medlemskap. <a href="default.asp"
-                        target="_blank"><i>KLIKK HER</i></a></p>
-            </div>
+        <h2 font-size: 40px;><i><b>BLI MEDLEM</i></b></h2>
+        <p>Velg ditt område for å sette sammen ditt medlemskap:<p>
+        
+        <div class="city">
+        
+            <a href="default.asp" target="_blank"><i><b>OSLO/AKERHUS</i></b></a>
+            <a href="default.asp" target="_blank"><i><b>BERGEN</b></i></a>
+            <a href="default.asp" target="_blank"><i><b>GRENLAND</b></i></a>
+            <a href="default.asp" target="_blank"><i><b>SØRLANDET</b></i></a>
+            <a href="default.asp" target="_blank"><i><b>DRAMMEN</b></i></a>
+            <br>
+            <br>
+            <a href="default.asp" target="_blank"><i><b>ROGALAND</b></i></a>
+            <a href="default.asp" target="_blank"><i><b>TROMSØ</b></i></a>
+            <a href="default.asp" target="_blank"><i><b>HØNEFOSS</b></i></a>
+            <a href="default.asp" target="_blank"><i><b>LILLEHAMMER</b></i></a>
+            <a href="default.asp" target="_blank"><i><b>ØSTFOLD</b></i></a>
+        
+        
+            <p>Er du allerede medlem og ønsker å endre ditt medlemskap. <a href="default.asp" target="_blank"><i>KLIKK HER</i></a></p>
+        </div>
         </center>
-        <!-- footer container -->
-        <footer>
+<!-- footer container -->
+<footer>
 
-            <div class="footer-link">
-                <table>
-                    <tr>
-                        <th><a href="default.asp" target="_blank"> TRENING </a></th>
-                        <th><a href="default.asp" target="_blank"> BLI MEDLEM </a></th>
-                        <th><a href="default.asp" target="_blank"> TRENINGSSENTRE </a></th>
-                    </tr>
+    <div class="footer-link">
+        <table>
+            <tr>
+                <th><a href="default.asp" target="_blank"> TRENING </a></th>
+                <th><a href="default.asp" target="_blank"> BLI MEDLEM </a></th>
+                <th><a href="default.asp" target="_blank"> TRENINGSSENTRE </a></th>
+            </tr>
 
-                    <tr>
-                        <td><a href="default.asp" target="_blank">Gruppetrening</a></td>
-                        <td><a href="default.asp" target="_blank">Medlemskap</a></td>
-                        <td><a href="default.asp" target="_blank">Oslo</a></td>
-                        <td><a href="default.asp" target="_blank">Medlemsservice</a></td>
-                    </tr>
+            <tr>
+                <td><a href="default.asp" target="_blank">Gruppetrening</a></td>
+                <td><a href="default.asp" target="_blank">Medlemskap</a></td>
+                <td><a href="default.asp" target="_blank">Oslo</a></td>
+                <td><a href="default.asp" target="_blank">Medlemsservice</a></td>
+            </tr>
 
-                    <tr>
-                        <td><a href="default.asp" target="_blank">Personlig trening</a></td>
-                        <td><a href="default.asp" target="_blank">Vare priser</a></td>
+            <tr>
+                <td><a href="default.asp" target="_blank">Personlig trening</a></td>
+                <td><a href="default.asp" target="_blank">Vare priser</a></td>
+                
+                <td><a href="default.asp" target="_blank">Rogaland</a></td>
+                <td><a href="default.asp" target="_blank">Bedrift</a></td>
+                
+                
+            </tr>
 
-                        <td><a href="default.asp" target="_blank">Rogaland</a></td>
-                        <td><a href="default.asp" target="_blank">Bedrift</a></td>
+            <tr>
+                <td><a href="default.asp" target="_blank">Online Training - prøv gratis</a></td>
+                <td><a href="default.asp" target="_blank">Hvorfor SATS?</a></td>
+                <td><a href="default.asp" target="_blank">Bergen</a></td>
+                <td><a href="default.asp" target="_blank">Om SATS</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="default.asp" target="_blank">Treningsprogrammer</a></td>
+                <td><a href="default.asp" target="_blank">Regler og vilkår</a></td>
+                <td><a href="default.asp" target="_blank">Drammen</a></td>
+                <td><a href="default.asp" target="_blank">Jobbe i SATS</a></td>
+            </tr>
+
+            <tr>
+                <td><a href="default.asp" target="_blank">Unike treningskonsepter</a></td>
+                <td><a href="default.asp" target="_blank">PT Start</a></td>
+                <td><a href="default.asp" target="_blank">Grenland</a></td>
+                <td><a href="default.asp" target="_blank">Presse & annonsere </a></td>
+            </tr>
+
+            <tr>
+                <td><a href="default.asp" target="_blank">Hva er ditt mål?</a></td>
+                <td><a href="default.asp" target="_blank">Kontakt meg</a></td>
+                <td><a href="default.asp" target="_blank">Alle sentre</a></td>
+            </tr>
+        
+        </table>
+    </div>
 
 
-                    </tr>
+    <p>
+     @powered by Maryna &copy;
+    </p>
 
-                    <tr>
-                        <td><a href="default.asp" target="_blank">Online Training - prøv gratis</a></td>
-                        <td><a href="default.asp" target="_blank">Hvorfor SATS?</a></td>
-                        <td><a href="default.asp" target="_blank">Bergen</a></td>
-                        <td><a href="default.asp" target="_blank">Om SATS</a></td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="default.asp" target="_blank">Treningsprogrammer</a></td>
-                        <td><a href="default.asp" target="_blank">Regler og vilkår</a></td>
-                        <td><a href="default.asp" target="_blank">Drammen</a></td>
-                        <td><a href="default.asp" target="_blank">Jobbe i SATS</a></td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="default.asp" target="_blank">Unike treningskonsepter</a></td>
-                        <td><a href="default.asp" target="_blank">PT Start</a></td>
-                        <td><a href="default.asp" target="_blank">Grenland</a></td>
-                        <td><a href="default.asp" target="_blank">Presse & annonsere </a></td>
-                    </tr>
-
-                    <tr>
-                        <td><a href="default.asp" target="_blank">Hva er ditt mål?</a></td>
-                        <td><a href="default.asp" target="_blank">Kontakt meg</a></td>
-                        <td><a href="default.asp" target="_blank">Alle sentre</a></td>
-                    </tr>
-
-                </table>
-            </div>
-
-
-            <p>
-                @powered by Maryna &copy;
-            </p>
-
-        </footer>
-    </body>
-
+</footer>
+</body>
 </html>

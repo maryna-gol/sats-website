@@ -1,0 +1,190 @@
+body {
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  min-height: 100%;
+  width: 100%;
+  overflow-x: hidden;
+  line-height: 1.7777;
+}
+div.menu {
+  background-color: #0d2134;
+  text-decoration: none;
+  width: 100%;
+}
+#sats {
+  font-size: 40px;
+  text-decoration: none;
+  font-style: italic;
+  font-weight: bold;
+  margin: 30px;
+}
+
+div.menu a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.container {
+  display: inline-block;
+  cursor: pointer;
+}
+
+.closebtn {
+  background-color: #0d2134;
+}
+
+.sidenav {
+  padding-top: 30px;
+  padding-bottom: 50px;
+  float: right;
+  display: none;
+  height: 100%;
+  width: 250px;
+  float: right;
+  z-index: 10;
+  overflow-x: hidden;
+  padding-top: 60px;
+  background-color: #0d2134;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: #fff;
+  background-color: #0d2134;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+  float: right;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+
+.viewport {
+  width: 35px;
+  height: 5px;
+  color: #fff;
+  margin: 6px 0;
+}
+
+.main {
+  background-color: #0d2134;
+  overflow: auto;
+  white-space: nowrap;
+}
+.photo {
+  width: 750px;
+  float: right;
+  margin-right: 20px;
+  vertical-align: middle;
+  border: 0;
+}
+
+.title_1 {
+  color: #fff;
+  font-size: 15px;
+  margin-left: 5em;
+  padding-top: 120px;
+  margin: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+.title_2 {
+  color: #fa5333;
+  font-size: 15px;
+  margin-left: 5em;
+  margin: 30px;
+  font-style: italic;
+  font-weight: bold;
+}
+#bli-medlem {
+  font-style: italic;
+  font-weight: bold;
+}
+.city a:link,
+a:visited {
+  background-color: white;
+  color: #fa5333;
+  border: 2px solid #fa5333;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.city a:hover,
+a:active {
+  background-color: #fa5333;
+  color: white;
+  text-align: center;
+}
+.city {
+  padding-bottom: 100px;
+}
+
+footer {
+  background-color: #0d2134;
+  padding-top: 100px;
+  padding-bottom: 50px;
+}
+
+.footer-link a {
+  display: inline;
+  color: #fff;
+  text-align: center;
+  display: inline-block;
+  list-style-type: none;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 10px;
+  padding-left: 10px;
+  border: 10px;
+  text-decoration: none;
+  font-style: italic;
+}
+
+table {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+td,
+th {
+  text-align: center;
+  /*padding: 8px;*/
+}
+
+/* visited link */
+.footer-link a:visited {
+  color: #fff;
+}
+
+/* mouse over link */
+.footer-link a:hover {
+  color: lightblue;
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+  font-style: italic;
+}
