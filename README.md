@@ -2,6 +2,9 @@
 
 ## The website includes a navigation menu, a main section with an image and promotional text, a membership section, and a footer with various links.
 
+## Preview
+![Preview](https://github.com/user-attachments/assets/a262167b-15af-48f1-9d87-4beb63c15503)
+
 ## Table of Contents
 - Project Structure
 - Features
