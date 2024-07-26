@@ -10,3 +10,23 @@
 - Usage
 - Contributing
 - License
+
+## Project Structure
+- index.html: The main HTML file containing the structure of the website.
+- style.css: The CSS file for styling the website.
+- photo.jpg: The image used in the main section of the website.
+- README.md: This README file.
+
+## Features
+
+- Navigation Menu: Links to various sections of the website, including becoming a member, finding training centers, and accessing online training.
+- Side Navigation: A collapsible side navigation menu with additional links.
+- Main Section: Displays a promotional offer with an image.
+- Membership Section: Provides links for users to choose their region and become a member.
+- Footer: Contains links to various resources and sections of the website.
+
+## Technologies Used
+- HTML5
+- CSS3
+- Font Awesome (for icons)
+
