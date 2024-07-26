@@ -30,3 +30,14 @@
 - CSS3
 - Font Awesome (for icons)
 
+## Usage
+The navigation links are placeholders and should be updated with actual URLs.
+The side navigation menu can be opened by clicking the "Meny" link and closed by clicking the "×" button.
+Update the image (photo.jpg) with your desired promotional image.
+Customize the text and links in the HTML as needed.
+
+## Contributing
+Contributions are welcome! If you have suggestions for improvements or new features, please open an issue or submit a pull request.
+
+## License
+This project is open source and available under the MIT License.
