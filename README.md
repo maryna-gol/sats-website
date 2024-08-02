@@ -1,6 +1,6 @@
 # Sats Website
 
-## The website includes a navigation menu, a main section with an image and promotional text, a membership section, and a footer with various links.
+## The website is a simulation of the SATS Norway training platform, designed to provide users with an engaging and informative experience. It features a comprehensive navigation menu for easy access to various sections, including membership options and training centers. The main section showcases an inviting image and promotional text to attract potential members. Additionally, there is a dedicated membership section where users can select their region to customize their membership plans. The footer contains numerous links for quick navigation to essential pages, ensuring users have all the information they need at their fingertips.
 
 ## Preview
 ![Preview](https://github.com/user-attachments/assets/a262167b-15af-48f1-9d87-4beb63c15503)
