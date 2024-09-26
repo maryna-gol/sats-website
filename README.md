@@ -45,5 +45,9 @@ Contributions are welcome! If you have suggestions for improvements or new featu
 ## License
 This project is open source and available under the MIT License.# sats-website
 
+### Show your support
+
+Give a ⭐ if you like this website!
+
 # Contributors
 [Maryna Goloborodko](https://github.com/maryna-gol)
